@@ -2,12 +2,12 @@ import {
   createRouter,
   createWebHistory,
 } from 'vue-router/dist/vue-router.esm-bundler';
-import Profile from './pages/Profile.vue';
-import Contact from './pages/Contact.vue';
+import profile from './pages/profile.vue';
+import contact from './pages/contact.vue';
 
 const routes = [
-  { path: '/', name: 'profile', component: Profile },
-  { path: '/contact', name: 'contact', component: Contact },
+  { path: '/', name: 'profile', component: profile },
+  { path: '/contact', name: 'contact', component: contact },
 ];
 
 export default createRouter({

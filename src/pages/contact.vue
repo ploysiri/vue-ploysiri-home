@@ -1,15 +1,15 @@
 <template>
   <div class="container text-center">
-    <contact />
+    <Contact />
   </div>
 </template>
 <script>
-import contact from '../components/contact.vue';
+import Contact from '../components/Contact.vue';
 
 export default {
-  name: 'Contact',
+  name: 'contact',
   components: {
-    contact,
+    Contact,
   },
 };
 </script>

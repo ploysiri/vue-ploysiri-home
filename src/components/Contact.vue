@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'profile',
+  name: 'Contact',
 };
 </script>
 <style></style>

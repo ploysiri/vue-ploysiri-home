@@ -1,15 +1,15 @@
 <template>
   <div class="container text-center">
-    <profile />
+    <Profile />
   </div>
 </template>
 <script>
-import profile from '../components/profile.vue';
+import Profile from '../components/Profile.vue';
 
 export default {
-  name: 'Profile',
+  name: 'profile',
   components: {
-    profile,
+    Profile,
   },
 };
 </script>

@@ -50,15 +50,15 @@
     </p>
   </div>
 
-  <router-like :to="{name: 'contact'}">
+  <router-link :to="{ name: 'contact'}">
     <button>CONTACT</button>
-  </router-like>
+  </router-link>
 
 </template>
 
 <script>
 export default {
-  name: "profile",
+  name: "Profile",
 };
 </script>
 
